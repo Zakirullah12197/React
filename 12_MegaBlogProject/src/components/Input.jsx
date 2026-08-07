@@ -1,5 +1,5 @@
 import React, { useId, forwardRef } from 'react'
-
+//no reference is passed uptill now while using the input component
 const Input = React.forwardRef(({
     label,
     type = 'text',
